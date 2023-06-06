@@ -1,0 +1,169 @@
+body{
+    /* background-image: url(images/dark-purple-speckled-paper-texture.jpg) ;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    /* viewport-fit: 100%;; */ 
+    background-color: bisque;
+}
+
+
+.namediv{
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.text1{
+    /* line-height: 40px ; */
+    margin-top: 80px;
+}
+ 
+
+.textbox{
+    display: flex;
+    width: 30%;
+    height:40px;
+    margin:2%;
+    border: 5px solid brown;
+    border-radius: 20rem;
+    background-color: aliceblue;
+}
+
+#yourname{
+    font-size: 20px;
+    width: 85%;
+    border: 0px none aliceblue;
+    border-radius: 20rem;
+    background-color: aliceblue;
+    padding:0 20px;
+}
+
+
+#plus {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+
+#sslok{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#qquote{
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: brown;
+}
+
+.day{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px 15% 15px 15%;  
+}
+
+#plan{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    color: brown;
+}
+
+#Today{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    color: brown;
+    background-color: bisque;
+}
+
+
+.yourwork{
+    display: flex;
+    width: 50%;
+    height: 80px;
+    justify-content:space-between;
+    align-items: center;
+    margin:50px 25% 50px 25%;
+    border: 5px solid brown;
+    border-radius: 20rem;
+    background-color: aliceblue;
+}
+
+#typework{
+    width:85%;
+    font-size: 35px;
+    font-family: 'Varela Round', sans-serif;
+    height: 80px;
+    border: 0px none aliceblue;
+    border-radius: 20rem;
+    background-color: aliceblue;
+    padding: 0 35px;
+}
+
+#p-icon{
+    position: relative;
+    margin: 10px 20px;
+}
+
+#nameparent{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}
+
+.aslinam{
+    color: rgb(2, 98, 129);
+    margin-left: 15px;
+}
+
+
+.taskbar{
+    display: flex;
+    width: 60%;
+    height: 80px;
+    justify-content:space-around;
+    align-items: center;
+    margin:50px 20% 50px 20%;
+    border: 5px solid brown;
+    border-radius: 20rem;
+    background: aliceblue;
+    /* padding: 20px; */
+}
+
+.task{
+    /* padding: 20px; */
+    width: 70%;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    /* text-align: center; */
+    font-weight: lighter;
+    color: grey;
+}
+
+.checkbox{
+    width: 10%;
+}
+
+.delbox{
+    width: 10%;
+}
+
