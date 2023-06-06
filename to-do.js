@@ -55,42 +55,11 @@ addd.addEventListener('click', () => {
     work.value="";
 
 
-    //event listners for add and delete
-  const item=document.getElementsByClassName("delbox");
-  item[0].addEventListener('click', ()=>{
-    item[0].parentElement.remove();
-    return;
-  })
-  const item2=document.getElementsByClassName('checkbox');
-  item2[0].addEventListener('click',()=>{
-    item2[0].parentElement.style.textDecoration="line-through";
-  })  
+    checkbox.addEventListener("click", ()=>{
+      checkbox.parentElement.style.textDecoration="line-through";
+    })
+    delbox.addEventListener("click", ()=>{
+      delbox.parentElement.remove();
+    })
+
 });
-
-
-
-
-
-
-
-
-
-
-
-// const checkboxx=document.getElementsByClassName("checkbox");
-// checkboxx[0].addEventListener('click',()=>{
-// checkboxx[0].parentElement.style.textDecoration="line-through";  });
-
-// if (kary === '') {
-    //   alert('Oh! Man set some goal');
-    // } else{
-    //   parent.appendChild(taskbar);
-    // }
-    // work.value="";
-
-
-
-
-// const checkboxx=document.getElementsByClassName("checkbox");
-// checkboxx[0].addEventListener('click',()=>{
-// checkboxx[0].parentElement.style.textDecoration="line-through";  });
